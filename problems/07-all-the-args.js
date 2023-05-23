@@ -1,5 +1,7 @@
 function allTheArgs(func, ...args) {
   // Your code here
+  const result = func.bind(null, ...args);
+  return result;
 }
 
 /*****************************************************************************/

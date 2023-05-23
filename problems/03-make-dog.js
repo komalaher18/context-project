@@ -12,8 +12,7 @@ class Dog{
 		this.name = newName;
 	}
 	speak(word){
-		this.word = word
-		return `$(this.name} says $(this.word)`
+		return `${this.name} says ${word}`
 	}
 }
 
